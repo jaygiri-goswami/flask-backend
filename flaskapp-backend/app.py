@@ -37,7 +37,7 @@ def index():
         # Saves the entity
         datastore_client.put(task)
 
-    #return redirect()
+    return redirect('http://34.71.189.227:8081/')
 
 # @app.route('/users')
 # def users():
